@@ -12,14 +12,6 @@ from config import TOKEN,GPT_KEY
 
 
 
-# openai_messeges = [
-#     {
-#         'role':'system',
-#     }           
-# ]
-
-
-
 async def get_start(message:Message):
     await message.answer('Привет ! С моей помощью ты можешь задать вопросы ChatGPT')
 
